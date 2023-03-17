@@ -5,6 +5,7 @@ export default function Input() {
     <>
       <div className="input-list">
         <ul>
+    {/*given same id of checkbox so that it remains static*/}
           <div className="list d-flex">
             <div className="task-write">
               <h4 className="complete">
@@ -13,7 +14,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} checked="checked" />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
           <div className="list d-flex">
@@ -24,7 +25,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} checked="checked" />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
 
@@ -36,7 +37,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
 
@@ -48,7 +49,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
           <div className="list d-flex">
@@ -59,7 +60,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
           <div className="list d-flex">
@@ -70,7 +71,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
           <div className="list d-flex">
@@ -81,7 +82,7 @@ export default function Input() {
             </div>
             <div className="round">
               <input type="checkbox" id={`checkbox1`} />
-              <label htmlFor={`checkbox1`}></label>;
+              <label htmlFor={`checkbox1`}></label>
             </div>
           </div>
         </ul>
